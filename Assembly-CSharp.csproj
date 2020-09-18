@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Controller\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\Controller\GameController.cs" />
     <Compile Include="Assets\Scripts\Controller\InventoryViewer.cs" />
+    <Compile Include="Assets\Scripts\Controller\PanelGameShow.cs" />
     <Compile Include="Assets\Scripts\Controller\PanelShowHideInventory.cs" />
     <Compile Include="Assets\Scripts\Controller\PanelShowHideMap.cs" />
     <Compile Include="Assets\Scripts\Controller\RoomNavigation.cs" />
