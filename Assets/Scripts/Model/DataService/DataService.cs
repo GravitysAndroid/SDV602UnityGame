@@ -1,13 +1,13 @@
-﻿using SQLite4Unity3d;
+﻿/*using Assets.Scripts.Model;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
-// DataService is a bridge to SQlite 
-// =================================
+using UnityEngine.UI;
+using SQLite4Unity3d;
 #if !UNITY_EDITOR
 using System.Collections;
 using System.IO;
 #endif
-using System.Collections.Generic;
 
 public class DataService
 {
@@ -95,8 +95,6 @@ public class DataService
 
     }
 
-
-     ====== 
 	public void CreateDB()
     {
         // remove these once testing is sorted
@@ -149,7 +147,6 @@ public class DataService
     }
     public Location storeLocation(Location pLocation)
     {
-
         _connection.InsertOrReplace(pLocation); // Store the location 
         return pLocation;
     }
@@ -164,7 +161,6 @@ public class DataService
             Direction = pDirection
         };
         _connection.Insert(f);
-
     }
 
 
@@ -180,7 +176,6 @@ public class DataService
             LocationId = pLocationId,
             Health = pHealth,
             Wealth = pWealth
-
         };
         _connection.InsertOrReplace(player);
         return player;
@@ -190,28 +185,5 @@ public class DataService
     {
         return _connection.Table<Player>().Where(x => x.Name == pPlayerName).FirstOrDefault();
     }
-
-    //   Example 
-    // public Person GetJohnny(){
-    //	return _connection.Table<Person>().Where(x => x.Name == "Johnny").FirstOrDefault();
-    //}
-
-    //public Person CreatePerson(){
-    //	var p = new Person{
-    //			Name = "Johnny",
-    //			Surname = "Mnemonic",
-    //			Age = 21
-    //	};
-    //	_connection.Insert (p);
-    //	return p;
-    //}
-
-    //public IEnumerable<Person> GetPersons(){
-    //	return _connection.Table<Person>();
-    //}
-
-    //public IEnumerable<Person> GetPersonsNamedRoberto(){
-    //	return _connection.Table<Person>().Where(x => x.Name == "Roberto");
-    //}
-
 }
+*/

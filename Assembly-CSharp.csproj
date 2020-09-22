@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AB5532A4-EBEC-0F95-E7F0-E88FC1165F30}</ProjectGuid>
+    <ProjectGuid>{1625A76B-3414-04A4-AF32-A239B2431CF4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,11 +66,15 @@
     <Compile Include="Assets\Scripts\Controller\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\Controller\GameController.cs" />
     <Compile Include="Assets\Scripts\Controller\InventoryViewer.cs" />
-    <Compile Include="Assets\Scripts\Controller\PanelGameShow.cs" />
-    <Compile Include="Assets\Scripts\Controller\PanelShowHideInventory.cs" />
-    <Compile Include="Assets\Scripts\Controller\PanelShowHideMap.cs" />
+    <Compile Include="Assets\Scripts\Controller\LoginRegisterController.cs" />
     <Compile Include="Assets\Scripts\Controller\RoomNavigation.cs" />
+    <Compile Include="Assets\Scripts\Controller\ShowHidePanels\PanelGameShow.cs" />
+    <Compile Include="Assets\Scripts\Controller\ShowHidePanels\PanelHideLoginError.cs" />
+    <Compile Include="Assets\Scripts\Controller\ShowHidePanels\PanelShowHideInventory.cs" />
+    <Compile Include="Assets\Scripts\Controller\ShowHidePanels\PanelShowHideMap.cs" />
     <Compile Include="Assets\Scripts\Model\ActionResponse.cs" />
+    <Compile Include="Assets\Scripts\Model\DataService\DataService.cs" />
+    <Compile Include="Assets\Scripts\Model\DataService\SQLite.cs" />
     <Compile Include="Assets\Scripts\Model\GameModel.cs" />
     <Compile Include="Assets\Scripts\Model\InputAction.cs" />
     <Compile Include="Assets\Scripts\Model\InteractableItems.cs" />
@@ -614,31 +618,31 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Hayden Williams/OneDrive - NMIT/SDV602/Assessment 1/Milestone 1/Unity/DungeonCrawler/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/SDV602UnityGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Hayden Williams/OneDrive - NMIT/SDV602/Assessment 1/Milestone 1/Unity/DungeonCrawler/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/SDV602UnityGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Hayden Williams/OneDrive - NMIT/SDV602/Assessment 1/Milestone 1/Unity/DungeonCrawler/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/SDV602UnityGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Hayden Williams/OneDrive - NMIT/SDV602/Assessment 1/Milestone 1/Unity/DungeonCrawler/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/SDV602UnityGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Hayden Williams/OneDrive - NMIT/SDV602/Assessment 1/Milestone 1/Unity/DungeonCrawler/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/SDV602UnityGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Hayden Williams/OneDrive - NMIT/SDV602/Assessment 1/Milestone 1/Unity/DungeonCrawler/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/SDV602UnityGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Hayden Williams/OneDrive - NMIT/SDV602/Assessment 1/Milestone 1/Unity/DungeonCrawler/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/SDV602UnityGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Hayden Williams/OneDrive - NMIT/SDV602/Assessment 1/Milestone 1/Unity/DungeonCrawler/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/SDV602UnityGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Hayden Williams/OneDrive - NMIT/SDV602/Assessment 1/Milestone 1/Unity/DungeonCrawler/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Workspace/Year2/SDV/SDV602UnityGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

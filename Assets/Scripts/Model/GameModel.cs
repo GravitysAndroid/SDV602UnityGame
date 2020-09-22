@@ -21,5 +21,9 @@ namespace Assets.Scripts.Model
         public static Dictionary<string, Room> exitDictionary = new Dictionary<string, Room>();
 
         public static bool isSameRoom = false;
+
+        public static class CheckPassword
+        {
+        };
     }
 }
